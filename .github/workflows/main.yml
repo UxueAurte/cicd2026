@@ -8,15 +8,11 @@ jobs:
 
     steps:
 
-
       - name: Bajar codigo
         uses: actions/checkout@v7
         
       - name: Probar codigo
         run: python3 main.py
-
-      - name: Construir imagen docker
-        run: docker build ....
 
       -
         name: Login to Docker Hub
